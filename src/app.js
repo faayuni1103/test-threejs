@@ -252,7 +252,7 @@ function onWindowResize() {
 function animate() {
   requestAnimationFrame(animate);
   TWEEN.update();
-  controls.update();
+  //controls.update();
 }
 
 function render() {
